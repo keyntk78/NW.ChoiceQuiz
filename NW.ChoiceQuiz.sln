@@ -1,0 +1,94 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B4AE4AD6-BC2C-475F-A89D-1CCAC4221BC5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Identity.Api", "src\Identity.Api\Identity.Api.csproj", "{EC64CD7B-92E3-4D49-A46A-792E5094F4F5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NW.ChoiceQuiz", "NW.ChoiceQuiz", "{587F45C1-6BAB-4B7A-B8AA-944678596386}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NW.ChoiceQuiz.Api", "src\NW.ChoiceQuiz\NW.ChoiceQuiz.Api\NW.ChoiceQuiz.Api.csproj", "{D1E46384-1037-4972-BD9B-D165DFBCF60C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NW.ChoiceQuiz.Application", "src\NW.ChoiceQuiz\NW.ChoiceQuiz.Application\NW.ChoiceQuiz.Application.csproj", "{DB0329C4-D278-44B0-8261-3240653BEF5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NW.ChoiceQuiz.Domain", "src\NW.ChoiceQuiz\NW.ChoiceQuiz.Domain\NW.ChoiceQuiz.Domain.csproj", "{128D4346-D9C0-4194-895A-DC3C51A2E047}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NW.ChoiceQuiz.Infrastrure", "src\NW.ChoiceQuiz\NW.ChoiceQuiz.Infrastrure\NW.ChoiceQuiz.Infrastrure.csproj", "{90134C1D-E7F3-47E2-BDC2-F4673F420D30}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{3B7AABD4-7A1C-4299-9DEC-F83B49DA9136}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Identity.Api", "Identity.Api", "{E6F5A45C-F8FE-4286-90C7-8BAF0C634C2F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Identity.Api.IntegrationTests", "test\Identity.Api\Identity.Api.IntegrationTests\Identity.Api.IntegrationTests.csproj", "{67DD1582-73B3-4B33-8DFC-83B4375B72B9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NW.ChoiceQuiz", "NW.ChoiceQuiz", "{F75263A3-9E98-4024-BB42-3CBF3D00EC97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NW.ChoiceQuiz.Application.IntegrationTests", "test\NW.ChoiceQuiz\NW.ChoiceQuiz.Application.IntegrationTests\NW.ChoiceQuiz.Application.IntegrationTests.csproj", "{E44A7CA7-BE2B-40AF-A6AB-8F1081748F58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NW.ChoiceQuiz.Domain.IntegrationTests", "test\NW.ChoiceQuiz\NW.ChoiceQuiz.Domain.IntegrationTests\NW.ChoiceQuiz.Domain.IntegrationTests.csproj", "{86959A05-25F2-4E00-9FE6-4DE45A767871}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NW.ChoiceQuiz.Infrastrure.IntegrationTests", "test\NW.ChoiceQuiz\NW.ChoiceQuiz.Infrastrure.IntegrationTests\NW.ChoiceQuiz.Infrastrure.IntegrationTests.csproj", "{A9E97E06-7AB2-43D6-9FAE-96885F217786}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC64CD7B-92E3-4D49-A46A-792E5094F4F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC64CD7B-92E3-4D49-A46A-792E5094F4F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC64CD7B-92E3-4D49-A46A-792E5094F4F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC64CD7B-92E3-4D49-A46A-792E5094F4F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1E46384-1037-4972-BD9B-D165DFBCF60C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1E46384-1037-4972-BD9B-D165DFBCF60C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1E46384-1037-4972-BD9B-D165DFBCF60C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1E46384-1037-4972-BD9B-D165DFBCF60C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB0329C4-D278-44B0-8261-3240653BEF5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB0329C4-D278-44B0-8261-3240653BEF5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB0329C4-D278-44B0-8261-3240653BEF5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB0329C4-D278-44B0-8261-3240653BEF5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{128D4346-D9C0-4194-895A-DC3C51A2E047}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{128D4346-D9C0-4194-895A-DC3C51A2E047}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{128D4346-D9C0-4194-895A-DC3C51A2E047}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{128D4346-D9C0-4194-895A-DC3C51A2E047}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90134C1D-E7F3-47E2-BDC2-F4673F420D30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90134C1D-E7F3-47E2-BDC2-F4673F420D30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90134C1D-E7F3-47E2-BDC2-F4673F420D30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90134C1D-E7F3-47E2-BDC2-F4673F420D30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67DD1582-73B3-4B33-8DFC-83B4375B72B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67DD1582-73B3-4B33-8DFC-83B4375B72B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67DD1582-73B3-4B33-8DFC-83B4375B72B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67DD1582-73B3-4B33-8DFC-83B4375B72B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E44A7CA7-BE2B-40AF-A6AB-8F1081748F58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E44A7CA7-BE2B-40AF-A6AB-8F1081748F58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E44A7CA7-BE2B-40AF-A6AB-8F1081748F58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E44A7CA7-BE2B-40AF-A6AB-8F1081748F58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86959A05-25F2-4E00-9FE6-4DE45A767871}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86959A05-25F2-4E00-9FE6-4DE45A767871}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86959A05-25F2-4E00-9FE6-4DE45A767871}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86959A05-25F2-4E00-9FE6-4DE45A767871}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9E97E06-7AB2-43D6-9FAE-96885F217786}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9E97E06-7AB2-43D6-9FAE-96885F217786}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9E97E06-7AB2-43D6-9FAE-96885F217786}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9E97E06-7AB2-43D6-9FAE-96885F217786}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EC64CD7B-92E3-4D49-A46A-792E5094F4F5} = {B4AE4AD6-BC2C-475F-A89D-1CCAC4221BC5}
+		{587F45C1-6BAB-4B7A-B8AA-944678596386} = {B4AE4AD6-BC2C-475F-A89D-1CCAC4221BC5}
+		{D1E46384-1037-4972-BD9B-D165DFBCF60C} = {587F45C1-6BAB-4B7A-B8AA-944678596386}
+		{DB0329C4-D278-44B0-8261-3240653BEF5B} = {587F45C1-6BAB-4B7A-B8AA-944678596386}
+		{128D4346-D9C0-4194-895A-DC3C51A2E047} = {587F45C1-6BAB-4B7A-B8AA-944678596386}
+		{90134C1D-E7F3-47E2-BDC2-F4673F420D30} = {587F45C1-6BAB-4B7A-B8AA-944678596386}
+		{E6F5A45C-F8FE-4286-90C7-8BAF0C634C2F} = {3B7AABD4-7A1C-4299-9DEC-F83B49DA9136}
+		{67DD1582-73B3-4B33-8DFC-83B4375B72B9} = {E6F5A45C-F8FE-4286-90C7-8BAF0C634C2F}
+		{F75263A3-9E98-4024-BB42-3CBF3D00EC97} = {3B7AABD4-7A1C-4299-9DEC-F83B49DA9136}
+		{E44A7CA7-BE2B-40AF-A6AB-8F1081748F58} = {F75263A3-9E98-4024-BB42-3CBF3D00EC97}
+		{86959A05-25F2-4E00-9FE6-4DE45A767871} = {F75263A3-9E98-4024-BB42-3CBF3D00EC97}
+		{A9E97E06-7AB2-43D6-9FAE-96885F217786} = {F75263A3-9E98-4024-BB42-3CBF3D00EC97}
+	EndGlobalSection
+EndGlobal
